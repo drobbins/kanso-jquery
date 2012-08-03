@@ -9381,7 +9381,7 @@ jQuery.each( { Height: "height", Width: "width" }, function( name, type ) {
 
 
 // Expose jQuery to the global object
-window.jQuery = window.$ = window.jQuery || jQuery;
+window.jQuery = window.$ = jQuery;
 
 // Expose jQuery as an AMD module, but only for AMD loaders that
 // understand the issues with loading multiple versions of jQuery
@@ -9403,4 +9403,4 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 
 })( window );
 
-module.exports = window.jQuery || jQuery;
+module.exports = window.jQuery.noConflict();
