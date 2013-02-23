@@ -9595,3 +9595,5 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 }
 
 })( window );
+
+module.exports = window.jQuery || jQuery;
