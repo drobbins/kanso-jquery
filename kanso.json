@@ -1,6 +1,6 @@
 {
     "name": "jquery",
-    "version": "1.9.1-kanso",
+    "version": "1.9.1-kanso.2",
     "categories": ["utils"],
     "maintainers": [
         {
@@ -13,7 +13,7 @@
         }
     ],
     "url": "http://jquery.com/",
-    "modules": "jquery/core.js",
+    "modules": "jquery.js",
     "modules_attachment": false,
     "dependencies": {
         "modules": ">=0.0.8"
